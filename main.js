@@ -1,6 +1,10 @@
+import { header } from "./componentes/header/headerComponents.js";
+
 function seccion(){
 
     let seccion = document.createElement('section');
+    
+    seccion.appendChild(header());  
 
     let h1 = document.createElement('h1');
     h1.className = "titulo";
@@ -8,7 +12,7 @@ function seccion(){
     seccion.appendChild(h1);
 
     let p = document.createElement('p');
-    p.innerText = "Introduccion de Java Script";
+    p.innerText = "Introduccion de Javascript";
     seccion.appendChild(p);
 
     return seccion;
