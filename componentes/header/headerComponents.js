@@ -4,12 +4,13 @@ function header(){
     header.className = "header"
 
     let h1 = document.createElement('h1');
-    h1.className = "Titulo";
-    h1.innerText = "Titulo";
+    h1.className = "titulo";
+    h1.innerText = "@JaviTan";
     header.appendChild(h1);
 
     let div = document.createElement('div');
-    div.className = "div1";
+    div.className = "div-1";
+    div.innerText = "🍀"
     
     header.appendChild(div);
 

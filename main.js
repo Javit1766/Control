@@ -7,7 +7,7 @@ function seccion(){
     seccion.appendChild(header());  
 
     let h1 = document.createElement('h1');
-    h1.className = "titulo";
+    h1.className = "Titulo";
     h1.innerText = "Hola Mundo";
     seccion.appendChild(h1);
 
