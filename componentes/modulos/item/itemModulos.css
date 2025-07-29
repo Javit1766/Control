@@ -1,5 +1,31 @@
 .item {
     width: 20rem;
     height: 20rem;
-    background-color: red;
+    background-color: blue;
+}
+
+.titulo-1 {
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.img-1 {
+    width: 180px;
+    height: 115px;
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.txt {
+    width: 90%;
+    height: 100%;
+    font-size: 8px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
 }
